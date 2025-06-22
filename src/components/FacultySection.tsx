@@ -4,31 +4,34 @@ import { GraduationCap, BookOpen, Users } from 'lucide-react';
 const FacultySection = () => {
   const faculty = [
     {
-      name: "Dr. Anil Kumar Sharma",
-      subject: "Mathematics & Quantitative Aptitude",
-      qualification: "Ph.D. Mathematics, IIT Delhi",
-      experience: "15+ years",
+      name: "Mr. Roshan Mishra",
+      subject: "Chemistry & Director",
+      qualification: "M.Sc. (Chemistry), B.Ed.",
+      experience: "9+ years",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face",
-      specialization: "SSC, Banking, JEE Foundation",
-      achievements: "Author of 5 mathematics books"
+      specialization: "Physical & Organic Chemistry",
+      achievements: "Founding Member & Director with 9 years of classroom experience. Specializes in Physical & Organic Chemistry for boards, JEE, and NEET preparations.",
+      bio: "Expert in Physical & Organic Chemistry with extensive classroom experience. Leads chemistry preparation for JEE, NEET, and board examinations with innovative teaching methodologies."
     },
     {
-      name: "Prof. Sunita Verma",
-      subject: "English & General Studies",
-      qualification: "M.A. English, Gold Medalist",
-      experience: "12+ years",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b47c?w=300&h=300&fit=crop&crop=face",
-      specialization: "SSC, CTET, UPPCS",
-      achievements: "Former government school principal"
-    },
-    {
-      name: "Dr. Rajesh Singh",
-      subject: "Physics & Chemistry",
-      qualification: "Ph.D. Physics, BHU",
-      experience: "18+ years",
+      name: "Mr. Rohan Mishra",
+      subject: "Biology & Botany",
+      qualification: "M.Sc. (Botany), B.Ed.",
+      experience: "8+ years",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face",
-      specialization: "JEE, NEET, Board Exams",
-      achievements: "Ex-faculty at Kota coaching institute"
+      specialization: "Plant Physiology & Ecology",
+      achievements: "Senior Faculty specializing in Biology for NEET and Navodaya Entrance",
+      bio: "Expert in Plant Physiology & Ecology with deep understanding of biological concepts. Leads Biology preparation for NEET and Navodaya Entrance with comprehensive coverage of syllabus."
+    },
+    {
+      name: "Mr. Manish Tripathi",
+      subject: "Mathematics",
+      qualification: "M.Sc. (Mathematics)",
+      experience: "10+ years",
+      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&crop=face",
+      specialization: "Algebra, Calculus & Quantitative Aptitude",
+      achievements: "Senior Faculty heading Mathematics for SSC, IIT-JEE and CUET",
+      bio: "Specialist in Algebra, Calculus & Quantitative Aptitude with proven track record. Heads Mathematics preparation for SSC, IIT-JEE and CUET with focus on problem-solving techniques."
     }
   ];
 
@@ -41,7 +44,7 @@ const FacultySection = () => {
           </h2>
           <div className="w-20 h-1 bg-accent mx-auto mb-6"></div>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Learn from the best minds in the industry with proven track records
+            Learn from experienced educators with proven expertise in their respective fields
           </p>
         </div>
 
@@ -81,8 +84,8 @@ const FacultySection = () => {
                 </div>
                 
                 <div className="border-t pt-4">
-                  <p className="text-sm text-gray-600 italic">
-                    {teacher.achievements}
+                  <p className="text-sm text-gray-600">
+                    {teacher.bio}
                   </p>
                 </div>
               </div>

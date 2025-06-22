@@ -16,8 +16,10 @@ const Footer = () => {
     'JEE Foundation & Main',
     'NEET Preparation',
     'CUET & BHU Entrance',
-    'Teaching Exams (CTET/TET)',
-    'UPPCS Preparation'
+    'Navodaya Entrance',
+    'Teaching Exams (CTET/TET/S-TET)',
+    'UPPCS Preparation',
+    'School Academics (VI-XII)'
   ];
 
   return (
@@ -41,22 +43,22 @@ const Footer = () => {
                 </div>
               </div>
               <p className="text-blue-200 leading-relaxed">
-                Empowering students from Jaunpur to achieve their dreams through quality education and expert guidance since 2010.
+                Empowering students from Jaunpur to achieve their dreams through quality education and expert guidance since 2022.
               </p>
             </div>
             
             <div className="space-y-3">
               <div className="flex items-center space-x-3 text-blue-200">
                 <MapPin className="w-4 h-4" />
-                <span className="text-sm">Civil Lines, Jaunpur, UP 222002</span>
+                <span className="text-sm">Jaunpur, Uttar Pradesh</span>
               </div>
               <div className="flex items-center space-x-3 text-blue-200">
                 <Phone className="w-4 h-4" />
-                <span className="text-sm">+91 98765 43210</span>
+                <span className="text-sm">+91 79056 76660</span>
               </div>
               <div className="flex items-center space-x-3 text-blue-200">
                 <Mail className="w-4 h-4" />
-                <span className="text-sm">info@sssinstitute.com</span>
+                <span className="text-sm">roshanmishra231201@gmail.com</span>
               </div>
             </div>
           </div>
