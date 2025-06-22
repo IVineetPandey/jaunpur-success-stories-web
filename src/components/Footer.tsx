@@ -28,11 +28,15 @@ const Footer = () => {
           <div className="space-y-6">
             <div>
               <div className="flex items-center space-x-3 mb-4">
-                <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center">
-                  <span className="text-brand-blue font-bold text-xl font-poppins">SSS</span>
+                <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center p-1">
+                  <img 
+                    src="/lovable-uploads/040db15d-29ac-4cba-a01e-1394273e8f95.png" 
+                    alt="SSS Institute of Education Logo" 
+                    className="w-full h-full object-contain"
+                  />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold font-poppins">SSS Coaching Classes</h3>
+                  <h3 className="text-xl font-bold font-poppins">SSS Institute of Education</h3>
                   <p className="text-blue-200 text-sm">Shaping Success Stories</p>
                 </div>
               </div>
@@ -52,7 +56,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3 text-blue-200">
                 <Mail className="w-4 h-4" />
-                <span className="text-sm">info@ssscoaching.com</span>
+                <span className="text-sm">info@sssinstitute.com</span>
               </div>
             </div>
           </div>
@@ -134,7 +138,7 @@ const Footer = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-blue-200 text-sm text-center md:text-left">
-              © 2024 SSS Coaching Classes. All rights reserved.
+              © 2024 SSS Institute of Education. All rights reserved.
             </div>
             <div className="flex space-x-6 text-blue-200 text-sm">
               <a href="#" className="hover:text-accent transition-colors">Privacy Policy</a>

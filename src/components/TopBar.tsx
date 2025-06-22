@@ -16,7 +16,7 @@ const TopBar = () => {
           </div>
           <div className="flex items-center space-x-2">
             <Mail className="w-4 h-4" />
-            <span>info@ssscoaching.com</span>
+            <span>info@sssinstitute.com</span>
           </div>
         </div>
         <button className="bg-accent text-brand-blue px-4 py-1 rounded-md font-medium hover:bg-yellow-400 transition-colors">

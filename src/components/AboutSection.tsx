@@ -7,12 +7,12 @@ const AboutSection = () => {
           <div className="space-y-6">
             <div>
               <h2 className="text-4xl font-bold text-brand-blue mb-4 font-poppins">
-                About SSS Coaching Classes
+                About SSS Institute of Education
               </h2>
               <div className="w-20 h-1 bg-accent mb-6"></div>
             </div>
             <p className="text-gray-700 leading-relaxed text-lg">
-              Established in 2010, SSS Coaching Classes has been a beacon of educational excellence in Jaunpur. 
+              Established in 2010, SSS Institute of Education has been a beacon of educational excellence in Jaunpur. 
               We specialize in comprehensive preparation for competitive examinations including SSC, JEE, NEET, 
               CUET, BHU entrance, and various government job exams.
             </p>
@@ -52,7 +52,7 @@ const AboutSection = () => {
               </div>
               <blockquote className="text-gray-700 italic text-center leading-relaxed">
                 "Education is the most powerful weapon which you can use to change the world. 
-                At SSS Coaching Classes, we are committed to empowering every student with 
+                At SSS Institute of Education, we are committed to empowering every student with 
                 knowledge and confidence to achieve their dreams."
               </blockquote>
             </div>

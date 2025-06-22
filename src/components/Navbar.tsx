@@ -31,11 +31,15 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }: NavbarProps) => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-brand-blue rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-xl font-poppins">SSS</span>
+            <div className="w-12 h-12 rounded-full overflow-hidden">
+              <img 
+                src="/lovable-uploads/040db15d-29ac-4cba-a01e-1394273e8f95.png" 
+                alt="SSS Institute of Education Logo" 
+                className="w-full h-full object-contain"
+              />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-brand-blue font-poppins">SSS Coaching Classes</h1>
+              <h1 className="text-xl font-bold text-brand-blue font-poppins">SSS Institute of Education</h1>
               <p className="text-sm text-gray-600">Shaping Success Stories from Jaunpur</p>
             </div>
           </div>
