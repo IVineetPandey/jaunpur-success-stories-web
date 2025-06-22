@@ -38,7 +38,8 @@ const ContactSection = () => {
     'NEET',
     'CUET',
     'BHU Entrance',
-    'CTET/TET',
+    'Navodaya Entrance',
+    'CTET/TET/S-TET',
     'UPPCS',
     'School Academics (VI-XII)',
     'Other'
@@ -73,9 +74,9 @@ const ContactSection = () => {
                   <div>
                     <h4 className="font-semibold text-brand-blue mb-1">Address</h4>
                     <p className="text-gray-600">
-                      SSS Coaching Classes<br />
-                      Civil Lines, Near District Court<br />
-                      Jaunpur, Uttar Pradesh - 222002
+                      SSS Institute of Education<br />
+                      Pattinarendrapur<br />
+                      Jaunpur, Uttar Pradesh - 222001
                     </p>
                   </div>
                 </div>
@@ -87,8 +88,8 @@ const ContactSection = () => {
                   <div>
                     <h4 className="font-semibold text-brand-blue mb-1">Phone</h4>
                     <p className="text-gray-600">
-                      +91 98765 43210<br />
-                      +91 94150 67890
+                      +91 79056 76660<br />
+                      WhatsApp: +91 79056 76660
                     </p>
                   </div>
                 </div>
@@ -100,8 +101,7 @@ const ContactSection = () => {
                   <div>
                     <h4 className="font-semibold text-brand-blue mb-1">Email</h4>
                     <p className="text-gray-600">
-                      info@ssscoaching.com<br />
-                      admissions@ssscoaching.com
+                      roshanmishra231201@gmail.com
                     </p>
                   </div>
                 </div>
@@ -124,14 +124,14 @@ const ContactSection = () => {
             {/* Google Map */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3599.5247!2d82.6844!3d25.7539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDQ1JzE0LjAiTiA4MsKwNDEnMDUuOCJF!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.123!2d82.6844!3d25.7539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e31fb74fcfff%3A0x5ea20c76faa10b57!2sPattinarendrapur%2C%20Jaunpur%2C%20Uttar%20Pradesh%20222001!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
                 width="100%"
                 height="250"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="SSS Coaching Classes Location"
+                title="SSS Institute of Education Location"
               ></iframe>
             </div>
           </div>

@@ -11,7 +11,7 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }: NavbarProps) => {
   const [isScrolled, setIsScrolled] = useState(false);
 
   const navItems = [
-    'Home', 'About Us', 'Courses', 'Results', 'Faculty', 'Gallery', 'Testimonials', 'Blog', 'Contact'
+    'Home', 'About Us', 'Courses', 'Results', 'Faculty', 'Gallery', 'Blog', 'Contact'
   ];
 
   useEffect(() => {
