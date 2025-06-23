@@ -11,7 +11,8 @@ const FacultySection = () => {
       image: "/lovable-uploads/e47dce38-5dd8-4c8f-bb85-e0f8bac5319f.png",
       specialization: "Physical & Organic Chemistry",
       achievements: "Founding Member & Director with 9 years of classroom experience. Specializes in Physical & Organic Chemistry for boards, JEE, and NEET preparations.",
-      bio: "Expert in Physical & Organic Chemistry with extensive classroom experience. Leads chemistry preparation for JEE, NEET, and board examinations with innovative teaching methodologies."
+      bio: "Expert in Physical & Organic Chemistry with extensive classroom experience. Leads chemistry preparation for JEE, NEET, and board examinations with innovative teaching methodologies.",
+      position: "20%"
     },
     {
       name: "Mr. Rohan Mishra",
@@ -21,7 +22,8 @@ const FacultySection = () => {
       image: "/lovable-uploads/54d64cfd-d2f3-4a5c-8fc8-0612d4d755de.png",
       specialization: "Plant Physiology & Ecology",
       achievements: "Senior Faculty specializing in Biology for NEET and Navodaya Entrance",
-      bio: "Expert in Plant Physiology & Ecology with deep understanding of biological concepts. Leads Biology preparation for NEET and Navodaya Entrance with comprehensive coverage of syllabus."
+      bio: "Expert in Plant Physiology & Ecology with deep understanding of biological concepts. Leads Biology preparation for NEET and Navodaya Entrance with comprehensive coverage of syllabus.",
+      position: "30%"
     },
     {
       name: "Mr. Manish Tripathi",
@@ -31,7 +33,8 @@ const FacultySection = () => {
       image: "/lovable-uploads/937bf5c4-4db9-4cc1-8131-83146ccfb6d5.png",
       specialization: "Algebra, Calculus & Quantitative Aptitude",
       achievements: "Senior Faculty heading Mathematics for SSC, IIT-JEE and CUET",
-      bio: "Specialist in Algebra, Calculus & Quantitative Aptitude with proven track record. Heads Mathematics preparation for SSC, IIT-JEE and CUET with focus on problem-solving techniques."
+      bio: "Specialist in Algebra, Calculus & Quantitative Aptitude with proven track record. Heads Mathematics preparation for SSC, IIT-JEE and CUET with focus on problem-solving techniques.",
+      position: "25%"
     }
   ];
 
@@ -56,6 +59,7 @@ const FacultySection = () => {
                   src={teacher.image} 
                   alt={teacher.name}
                   className="w-full h-56 md:h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                  style={{ objectPosition: `50% ${teacher.position}` }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>

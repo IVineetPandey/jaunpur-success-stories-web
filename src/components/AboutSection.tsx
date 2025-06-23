@@ -44,8 +44,8 @@ const AboutSection = () => {
                   <img 
                     src="/lovable-uploads/e47dce38-5dd8-4c8f-bb85-e0f8bac5319f.png" 
                     alt="Mr. Roshan Mishra - Director" 
-                    className="w-full h-full object-cover object-center"
-                    style={{ objectPosition: '50% 60%' }}
+                    className="w-full h-full object-cover"
+                    style={{ objectPosition: '50% 20%' }}
                   />
                 </div>
                 <h3 className="text-xl font-bold text-brand-blue font-poppins">Mr. Roshan Mishra</h3>
