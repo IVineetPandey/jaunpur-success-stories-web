@@ -42,9 +42,10 @@ const AboutSection = () => {
               <div className="text-center mb-6">
                 <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-accent">
                   <img 
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face" 
+                    src="/lovable-uploads/e47dce38-5dd8-4c8f-bb85-e0f8bac5319f.png" 
                     alt="Mr. Roshan Mishra - Director" 
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-center"
+                    style={{ objectPosition: '50% 60%' }}
                   />
                 </div>
                 <h3 className="text-xl font-bold text-brand-blue font-poppins">Mr. Roshan Mishra</h3>
